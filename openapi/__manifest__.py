@@ -14,7 +14,7 @@
     "license": "LGPL-3",
     "depends": ["base_api", "mail"],
     "external_dependencies": {
-        "python": ["bravado_core", "swagger_spec_validator", "jsonschema<4"],
+        "python": ["bravado_core", "swagger_spec_validator", "jsonschema<4","jsonschema[format]==3.2.0","pyopenssl==22.1.0","cryptography==38.0.2"],
         "bin": [],
     },
     "data": [
